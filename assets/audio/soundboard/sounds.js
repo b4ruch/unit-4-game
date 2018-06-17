@@ -1,0 +1,56 @@
+const sounds = 
+[
+	"1-st",
+	"1",
+	"2",
+	"3",
+	"4",
+	"5",
+	"6",
+	"7",
+	"8",
+	"9",
+	"blanka-growl",
+	"blanka-roar",
+	"brazil",
+	"china",
+	"chunli-birdkick",
+	"chunli-grunt",
+	"chunli-haha",
+	"chunli-scream",
+	"chunli-yap",
+	"chunli-yata",
+	"dhalsim-yogafire",
+	"dhalsim-yogaflame",
+	"ehonda-dufgoi",
+	"fight",
+	"final",
+	"guile-sonic",
+	"india",
+	"japan",
+	"perfect",
+	"round",
+	"ryu-hadoken",
+	"ryu-hurricankick",
+	"ryu-shoryuken",
+	"ryu-uggh",
+	"sagat-tiger",
+	"sagat-uppercut",
+	"spain",
+	"thailand",
+	"usa",
+	"ussr",
+	"vega-doo",
+	"vega-yodel",
+	"youlose",
+	"youwin",
+	"youwin-a",
+	"zangief-grunt",
+	"zangief-haha"
+];
+
+["/audio/vg/sf/sf2/" + sounds[i] + ".mp3"]
+
+http://www.realmofdarkness.net/audio/vg/sf/sf2/fight.mp3
+
+http://www.realmofdarkness.net/scripts/sb/vg/sf/sf2/sounds.js

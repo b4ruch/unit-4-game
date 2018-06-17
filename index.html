@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 
+***********************************************
+*Author: Baruch Flores                        *
+*Homework 4: jQuery Assignment            	  *
+*UCB Extension - Full-Stack Bootcamp          *
+*June 2018                                    *
+***********************************************
+-->
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Street Fighter with JQuery</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="container container-fluid game_container">
+        <div class="row justify-content-start">
+            <div class="col-1 align-self-center">
+                <input class="btn btn-info mt-1 sound_track" type="image" src="assets/images/play.png" />
+            </div>
+            <div class="col align-self-center text-center">
+                <h1 class="game_message"></h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center ">
+            <div class="col-auto align-self-center">
+                <div class="char_selection ">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-around text-center arena no-gutters">
+            <div class="col-3 align-self-end arena_hero">
+                <div class="hero">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="arena_attack">
+                    <div class="attack" style="display: none;">
+                        <h2>Fight!</h2>
+                        <button class="btn-attack"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 align-self-end arena_enemy ">
+                <div class="enemy">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/audio.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
